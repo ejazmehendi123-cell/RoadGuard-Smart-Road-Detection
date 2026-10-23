@@ -8,16 +8,7 @@
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-BOM%202024.06.00-4285F4.svg)](https://developer.android.com/jetpack/compose)
 [![ESP32](https://img.shields.io/badge/Firmware-ESP32%20%2B%20Arduino-E7352C.svg)](https://www.espressif.com/en/products/socs/esp32)
 [![Tests](https://img.shields.io/badge/Automated%20Tests-17%20Passed-brightgreen.svg)](#p-testing-and-verification)
-
-> **Department of Computer Science & Engineering | IDEA Lab**  
-> **Ramdeobaba University (RCOEM), Nagpur**  
-> **Academic Year:** 2026–2027  
-> **Project Guide:** Dr. Suresh Balpande  
-> **Project Team:**  
-> - **Bhoomi Magarde** (A6-19)  
-> - **Mohammad Ejaz Mehendi** (A6-25)  
-> - **Nidhish Dadhe** (A6-53)  
-
+ 
 ---
 
 ## Table of Contents
