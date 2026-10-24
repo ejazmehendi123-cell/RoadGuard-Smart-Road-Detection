@@ -167,7 +167,7 @@ graph TB
 | **Web HUD Dashboard** | Vanilla HTML5 / CSS3 / JS | ES6+ | Zero-dependency high-contrast automotive HUD with dark glassmorphic styling | **Verified / Implemented** |
 | **Web Mapping** | Leaflet.js | 1.9.4 | Interactive road-hazard map with custom SVG icons, popups, and vehicle radar ring | **Verified / Implemented** |
 | **Audio Engine** | Web Audio API & Web Speech | Native W3C | Synthesized siren tones and Text-to-Speech voice warning announcements | **Verified / Implemented** |
-| **Automated Testing**| Pytest & TestClient | Pytest 9.x | Comprehensive integration test suite validating all API contracts and deduplication | **Verified / Implemented** |
+| **Automated Testing**| Pytest & TestClient | Pytest 9.x | Comprehensive integration test validating all API contracts and deduplication | **Verified / Implemented** |
 
 ---
 
