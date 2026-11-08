@@ -55,7 +55,7 @@ RoadGuard solves these limitations through an autonomous edge-cloud IoT architec
 ### The Route-Memory Concept
 RoadGuard implements a persistent spatial memory network:
 - Detected hazards are automatically geotagged and persisted in a local **Room database** (on the Android client) and synchronized with a cloud **Supabase PostgreSQL** repository.
-- A **15-meter spatial deduplication algorithm** groups repeat detections, increments observation confidence, and elevates verification status without bloating the database.
+- A **15-meter spatial deduplication algorithm** groups repeat detections, increments observation confidence, and elevates verification status.
 - Once a hazard is recorded by any vehicle, it is permanently remembered.
 
 ### Advance Voice Warnings
