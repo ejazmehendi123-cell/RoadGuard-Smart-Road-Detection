@@ -140,7 +140,7 @@ graph TB
 3. **Edge Processing:** The Android application ingests packets into a 50-sample sliding FIFO buffer (1 second duration) and computes spatial and statistical features.
 4. **Classification:** If a pothole or speed breaker pattern is recognized, an observation is generated with the current GPS fix.
 5. **Route Memory Persistence:** The observation is written immediately to the local **Room DB**. If network connectivity is present, it is synchronized with Supabase.
-6. **Proximity Alert:** As the vehicle moves, the proximity engine queries hazards within the configured threshold radius (50–200m). If the forward bearing matches the approach path, voice and audio warnings fire.
+6. **Proximity Alert:** As the vehicle moves, the proximity engine queries hazards within configured threshold radius (50–200m). If the forward bearing matches the approach path, voice and audio warnings fire.
 
 > [!IMPORTANT]
 > **Offline-First Guarantee:** Proximity warnings for previously stored hazards do **not** require internet connectivity. All geospatial calculations run locally on the device. Network access is only required to synchronize new crowdsourced records with Supabase.
