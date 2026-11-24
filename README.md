@@ -426,7 +426,7 @@ Evaluating on a stratified 20% test split (from the 3,000-sample dataset `roadgu
 ### Dual Inference Pipeline
 To ensure fail-safe operation:
 - **Trained Model Inference:** When features are precomputed, Scikit-learn Random Forest outputs predictions and class probabilities.
-- **Real-Time Physics Heuristic Engine (`ml_inference.py`):** Operates on raw 50-sample sliding windows with sub-2ms latency. If physical thresholds are violated (e.g., $a_z \text{ drop} < -3.5 \text{ m/s}^2$ with jerk $> 22 \text{ m/s}^3$), an anomaly event triggers immediately without waiting for full FFT computation.
+- **Real-Time Physics Heuristic Engine (`ml_inference.py`):** Operates on raw 50-sample sliding windows with sub-2ms latency. If physical thresholds are violated (e.g., $a_z \text{ drop} < -3.5 \text{ m/s}^2$ with jerk $> 22 \text{ m/s}^3$), an anomaly event triggers immediately without waiting for FFT computation.
 
 ---
 
