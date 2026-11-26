@@ -310,7 +310,7 @@ All **17 integration tests** should pass.
    SUPABASE_ANON_KEY=your-supabase-anon-key
    ROADGUARD_DEMO_MODE=true
    ```
-4. Connect an Android phone (Android 8.0 to 15) or launch an Android Virtual Device (AVD).
+4. Connect an Android phone (Android 8.0 to 15) or launch Android Virtual Device (AVD).
 5. Click **Run 'app'** (`Shift + F10`) to compile and launch.
 6. The app launches into the HUD Dashboard. Toggle **Demo Simulation Mode** on the top bar to test live telemetry and audible proximity alerts immediately.
 
